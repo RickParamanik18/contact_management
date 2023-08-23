@@ -54,7 +54,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <div className="bg-white relative top-0 left-0 h-[93vh] py-5 px-3">
                     {routeLinks}
                 </div>
-                {children}
+                <div className="w-full">{children}</div>
             </div>
         </>
     );
