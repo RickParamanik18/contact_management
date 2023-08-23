@@ -1,4 +1,4 @@
-const initState = true;
+const initState = false;
 interface actionType {
     type: string;
 }
